@@ -10,5 +10,5 @@ def index():
 def test():
     return render_template('base.html')
 
-app.run(host="localhost", debug=True)
+app.run(host="", debug=True)
 
